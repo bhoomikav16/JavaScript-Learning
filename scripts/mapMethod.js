@@ -8,6 +8,6 @@ console.log("fruits name / value", + fruits.get("grapes"));
 
 let text="";
 fruits.forEach(function(value,key){
-    text+=key+'='+value+';';
+    text+=key+'='+value+"\n";
 })
-console.log("new output:", text);
+console.log("new output: \n", text);
